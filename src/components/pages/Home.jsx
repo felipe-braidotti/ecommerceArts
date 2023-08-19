@@ -29,7 +29,6 @@ export default function Home() {
       <section className="obras__recentes mt-3">
         <h2 className="mb-3 mx-4">Todas as Obras</h2>
         <div className="row mx-4 ">
-          {/* <div className="app"> */}
             {arts &&
               arts.map((art) => (
                 <div className="col-sm-6 col-md-4 col-lg-3 mb-3">
@@ -47,7 +46,6 @@ export default function Home() {
                   </div>
                 </div>
               ))}
-          {/* </div> */}
         </div>
       </section>
     </Default>
